@@ -1,0 +1,30 @@
+
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  database: byju
+  pool: 5
+  username: root
+  password: nimbu
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  host: localhost
+  database: byju
+  pool: 5
+  username: root
+  password: nimbu
+  socket: /var/run/mysqld/mysqld.sock
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  host: localhost
+  database: byjut
+  pool: 5
+  username: root
+  password: nimbu
+  socket: /var/run/mysqld/mysqld.sock
+
