@@ -1,5 +1,5 @@
 # FoodRecipesApp
-The is food recipes app.
+The is food recipes app. Developing for fun and using ruby and rails first time.
 
 # README
 
